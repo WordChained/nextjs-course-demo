@@ -35,7 +35,7 @@ export async function getStaticProps(context) {
                 id: meetup._id.toString()
             }))
         },
-        revalidate: 10 //this refreshes the data on the server and rebuilds every X seconds
+        revalidate: 1 //this refreshes the data on the server and rebuilds every X seconds
     };
 }
 
